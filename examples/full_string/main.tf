@@ -4,7 +4,7 @@ provider "minecraft" {
 }
 
 module "minecraft_word" {
-  source   = "git@github.com:massimilianovallascas/terraform_module_minecraft_words"
+  source   = "git@github.com:massimilianovallascas/terraform_module_minecraft_words.git"
   material = "minecraft:stone"
   string   = "massimiliano"
 
