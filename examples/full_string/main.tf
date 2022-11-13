@@ -6,7 +6,7 @@ provider "minecraft" {
 module "minecraft_word" {
   source   = "git@github.com:massimilianovallascas/terraform_module_minecraft_words.git"
   material = "minecraft:stone"
-  string   = "massimiliano"
+  string   = "abcdefghijklmnopqrstuvwxyz 0123456789 +-*:= .,;!?\"' \\|/_ ~<>()[]{}"
 
   position = {
     x = -260
