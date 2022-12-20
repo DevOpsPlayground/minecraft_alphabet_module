@@ -6,7 +6,7 @@ This module is able to build words with Minecroft blocks in a Minecraft world us
 
 ```hcl
 module "minecraft_words" {
-  source   = "git@github.com:massimilianovallascas/terraform_module_minecraft_words.git"
+  source   = "git::https://github.com/DevOpsPlayground/minecraft_alphabet_module.git"
   material = "minecraft:stone"
   string   = "massimiliano"
 
